@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'com.ruslansoma'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+    compile 'org.apache.logging.log4j:log4j-core:2.14.1'
+    compile 'org.apache.logging.log4j:log4j-api:2.14.1'
+}
+
+test {
+    useJUnitPlatform()
+}

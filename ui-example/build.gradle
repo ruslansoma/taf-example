@@ -1,0 +1,45 @@
+plugins {
+    id 'io.qameta.allure' version '2.8.1'
+    id 'java'
+}
+
+ext {
+    junitJupiterApi = '5.6.0'
+    log4j = '2.14.1'
+    selenide = '5.20.4'
+    allureSelenide = '2.13.1'
+}
+
+group 'com.ruslansoma.ui'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+    google()
+}
+
+dependencies {
+    compile 'org.junit.jupiter:junit-jupiter-api:${junitJupiterApi}'
+    compile 'org.junit.jupiter:junit-jupiter-engine'
+    compile 'org.apache.logging.log4j:log4j-core:${log4j}'
+    compile 'org.apache.logging.log4j:log4j-api:${log4j}'
+    compile 'com.codeborne:selenide:${selenide}'
+    compile 'io.qameta.allure:allure-selenide:${allureSelenide}'
+}
+
+test {
+    ignoreFailures = true
+
+    useJUnitPlatform()
+}
+
+
+allure {
+    autoconfigure = true
+    aspectjweaver = true
+    clean = true
+
+    resultsDir = file('/ui-example/build/allure-results')
+    reportDir = file('build/reports/allure-results')
+}
