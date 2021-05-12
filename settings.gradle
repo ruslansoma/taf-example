@@ -1,0 +1,4 @@
+rootProject.name = 'taf-example'
+include 'ui-example'
+include 'api-example'
+
