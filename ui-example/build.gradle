@@ -40,6 +40,6 @@ allure {
     aspectjweaver = true
     clean = true
 
-    resultsDir = file('/ui-example/build/allure-results')
+    resultsDir = file('build/allure-results')
     reportDir = file('build/reports/allure-results')
 }
