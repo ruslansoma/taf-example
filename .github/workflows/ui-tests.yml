@@ -6,9 +6,9 @@ name: Git hub actions example
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ '*' ]
   pull_request:
-    branches: [ master ]
+    branches: [ '*' ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -34,7 +34,7 @@ jobs:
       - name: Grant Permissions to gradlew
         run: chmod +x gradlew
       - name: Test
-        run: ./gradlew :qa-example:test
+        run: ./gradlew :ui-example:test
 
       - name: Get Allure history
         uses: actions/checkout@v2
