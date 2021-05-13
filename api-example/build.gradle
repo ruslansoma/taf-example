@@ -19,5 +19,5 @@ allure {
 }
 tasks.withType(Test) {
     useJUnitPlatform()
-    systemProperty "qa.api.key",  System.getProperty("qa.api.key")
+    systemProperty "API_KEY",  System.getProperty("API_KEY")
 }
