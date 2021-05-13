@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 13 16:16:42 GMT 2021","Thu May 13 16:16:50 GMT 2021","8325","","GitHubTest","","GitHubTest","verifyUserCantLoginWithInvalidCredentials","verifyUserCantLoginWithInvalidCredentials()","Verify user cant login with invalid creds"

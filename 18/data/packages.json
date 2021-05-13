@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "GitHubTest",
+    "children" : [ {
+      "name" : "verifyUserCantLoginWithInvalidCredentials",
+      "uid" : "8d4c885d9db4da0b",
+      "parentUid" : "f2871ecb02fb906320da4a58a8aff118",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620922602448,
+        "stop" : 1620922610773,
+        "duration" : 8325
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f2871ecb02fb906320da4a58a8aff118"
+  } ],
+  "name" : "packages"
+}
