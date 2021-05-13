@@ -1,0 +1,44 @@
+{
+  "5c93bf2d3014171063f39f59cccc0672" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5262c0fdb89eb49",
+      "reportUrl" : "https://ruslansoma.github.io/taf-example/6//#testresult/a5262c0fdb89eb49",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1620947853845,
+        "stop" : 1620947856692,
+        "duration" : 2847
+      }
+    } ]
+  },
+  "8b7425b7de84c933f5025b47c0795984" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e32852dbbb1fa7",
+      "reportUrl" : "https://ruslansoma.github.io/taf-example/6//#testresult/2e32852dbbb1fa7",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "time" : {
+        "start" : 1620947856815,
+        "stop" : 1620947857102,
+        "duration" : 287
+      }
+    } ]
+  }
+}

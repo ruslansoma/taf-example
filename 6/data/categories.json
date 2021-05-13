@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nExpected status code <200> but was <404>.\n",
+      "children" : [ {
+        "name" : "getTodayExchangeRateAndValidateScheme()",
+        "uid" : "a5262c0fdb89eb49",
+        "parentUid" : "49e8c4ba724989b1644f4c577d398c8b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620947853845,
+          "stop" : 1620947856692,
+          "duration" : 2847
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getTodayExchangeRate()",
+        "uid" : "2e32852dbbb1fa7",
+        "parentUid" : "49e8c4ba724989b1644f4c577d398c8b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620947856815,
+          "stop" : 1620947857102,
+          "duration" : 287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49e8c4ba724989b1644f4c577d398c8b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
