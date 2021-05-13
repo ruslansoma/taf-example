@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "some  example epic",
+    "children" : [ {
+      "name" : "some example feature",
+      "children" : [ {
+        "name" : "verifyUserCantLoginWithInvalidCredentials()",
+        "uid" : "1a1841e7921d6e7f",
+        "parentUid" : "afc386ce5a6cc2a1547805eac35920cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620916657866,
+          "stop" : 1620916700051,
+          "duration" : 42185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "afc386ce5a6cc2a1547805eac35920cb"
+    } ],
+    "uid" : "ff34dd24cb43d7ab44b0e300c961cebe"
+  } ],
+  "name" : "behaviors"
+}
