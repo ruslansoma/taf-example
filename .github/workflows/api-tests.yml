@@ -21,10 +21,13 @@ jobs:
           java-version: '8'
           distribution: 'adopt'
       
+      - name: run ls -R
+        run: ls -R
+        
       - name: Write value to Properties-file
         uses: christian-draeger/write-properties@1.0.1
         with:
-          path: './src/main/resources/env.properties'
+          path: 'api-example/src/main/resources/env.properties'
           property: 'api.key'
           value: ${{ secrets.API_KEY }}
 
