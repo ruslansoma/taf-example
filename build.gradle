@@ -1,26 +1,37 @@
-plugins {
-    id 'java'
-
-}
-
-
 group 'com.ruslansoma'
 version '1.0-SNAPSHOT'
 
-repositories {
-    mavenCentral()
-}
+subprojects {
+    apply plugin: 'java'
 
-dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
-    compile 'org.apache.logging.log4j:log4j-core:2.14.1'
-    compile 'org.apache.logging.log4j:log4j-api:2.14.1'
-}
+    ext {
+        junitJupiterApi = '5.6.0'
+        log4j2 = '2.14.1'
+        selenide = '5.20.4'
+        allureSelenide = '2.13.1'
+        allureRestAssured = '2.13.1'
+        allureVersion = '2.13.6'
+        allureGradle = '2.8.1'
+        restAssuredVersion = '4.3.3'
+    }
 
-tasks.withType(Test) {
-    useJUnitPlatform()
-    testLogging.showStandardStreams = true
-    maxParallelForks = (int) (Runtime.runtime.availableProcessors().intdiv(2) ?: 1)
-}
+    repositories {
+        mavenCentral()
+        jcenter()
+        google()
+    }
 
+    dependencies {
+        testImplementation "org.junit.jupiter:junit-jupiter-api:${junitJupiterApi}"
+        testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine"
+        compile "org.apache.logging.log4j:log4j-core:${log4j2}"
+        compile "io.qameta.allure:allure-junit5:${allureVersion}"
+        compile "io.qameta.allure:allure-gradle:${allureGradle}"
+    }
+
+    tasks.withType(Test) {
+        useJUnitPlatform()
+        ignoreFailures = true
+    }
+
+}

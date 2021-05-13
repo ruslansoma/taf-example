@@ -1,20 +1,23 @@
 plugins {
-    id 'java'
+    id 'io.qameta.allure' version '2.8.1'
 }
 
-group 'com.ruslansoma.api'
+group 'com.ruslansoma.taf'
 version '1.0-SNAPSHOT'
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
-
+    compile "io.rest-assured:rest-assured:${restAssuredVersion}"
+    compile "io.rest-assured:json-path:${restAssuredVersion}"
+    compile "io.rest-assured:json-schema-validator:${restAssuredVersion}"
+    compile("io.qameta.allure:allure-rest-assured:${allureRestAssured}")
 }
 
-test {
+allure {
+    version = "${allureGradle}"
+    autoconfigure = true
+    aspectjweaver = true
+}
+tasks.withType(Test) {
     useJUnitPlatform()
+    systemProperty "qa.api.key",  System.getProperty("qa.api.key")
 }
