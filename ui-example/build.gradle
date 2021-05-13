@@ -36,9 +36,6 @@ dependencies {
 
 tasks.withType(Test) {
     useJUnitPlatform()
-    testLogging.showStandardStreams = true
-    maxParallelForks = (int) (Runtime.runtime.availableProcessors().intdiv(2) ?: 1)
-    finalizedBy("allureReport")
 }
 
 
