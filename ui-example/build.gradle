@@ -1,0 +1,46 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.8.1'
+}
+
+ext {
+    junitJupiterApi = '5.6.0'
+    log4j = '2.14.1'
+    selenide = '5.20.4'
+    allureVersion = '2.13.6'
+    allureGradle = '2.8.1'
+}
+
+
+group 'com.ruslansoma'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    jcenter()
+    google()
+}
+
+dependencies {
+    compile("org.junit.jupiter:junit-jupiter-api:${junitJupiterApi}")
+    compile("org.junit.jupiter:junit-jupiter-engine:${junitJupiterApi}")
+    compile("org.apache.logging.log4j:log4j-core:${log4j}")
+    compile("org.apache.logging.log4j:log4j-api:${log4j}")
+    compile("com.codeborne:selenide:${selenide}")
+    compile("io.qameta.allure:allure-selenide:${allureVersion}")
+    compile("io.qameta.allure:allure-junit5:${allureVersion}")
+    compile("io.qameta.allure:allure-gradle:${allureGradle}")
+}
+
+tasks.withType(Test) {
+    useJUnitPlatform()
+}
+
+
+allure {
+    version = allureGradle
+    autoconfigure = true
+    aspectjweaver = true
+}
