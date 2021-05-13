@@ -1,12 +1,16 @@
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.WebDriverRunner;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.Dimension;
 import pages.GitHubMainPage;
 import steps.LoginPageSteps;
 
@@ -26,15 +30,19 @@ public class GitHubTest {
     }
 
     @Test
-    @Description
+    @Epic("some  example epic")
+    @Feature("some example feature")
+    @Description("Verify user cant login with invalid creds")
     public void verifyUserCantLoginWithInvalidCredentials() {
-        LOGGER.error("Verify user cant login with invalid credentials. Started.");
+        LOGGER.info("Verify user cant login with invalid credentials. Started.");
 
         Selenide.open("");
+        WebDriverRunner.getWebDriver().manage().window().setSize(new Dimension(1900,1200));
+
         mainPage.getSignIn().click();
         loginPageSteps.fillCredentialsAndLogin("login", "password");
         loginPageSteps.verifyErrorMessage("Incorrect username or password.");
 
-        LOGGER.error("Verify user cant login with invalid credentials. Finished.");
+        LOGGER.info("Verify user cant login with invalid credentials. Finished.");
     }
 }

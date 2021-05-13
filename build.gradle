@@ -1,6 +1,8 @@
 plugins {
     id 'java'
+
 }
+
 
 group 'com.ruslansoma'
 version '1.0-SNAPSHOT'
@@ -16,6 +18,9 @@ dependencies {
     compile 'org.apache.logging.log4j:log4j-api:2.14.1'
 }
 
-test {
+tasks.withType(Test) {
     useJUnitPlatform()
+    testLogging.showStandardStreams = true
+    maxParallelForks = (int) (Runtime.runtime.availableProcessors().intdiv(2) ?: 1)
 }
+
