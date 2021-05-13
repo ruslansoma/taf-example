@@ -10,7 +10,7 @@ import util.PropertyParameters;
  * The type Base exchange rate test.
  */
 public class BaseExchangeRateTest {
-    private static String API_KEY = System.getProperty("API_KEY");
+    private static String API_KEY = System.getProperty("qa.api.key");
     private static String BASE_URL = PropertyParameters.getInstance().get("base.uri");
 
     /**
