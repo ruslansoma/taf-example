@@ -2,13 +2,13 @@ name: Run all api tests
 
 on:
   schedule:
-    - #Every midnight
+    #Every midnight
     - cron: '0 0 * * *'
 
   workflow_dispatch:
 
 jobs:
-  ui-tests:
+  api-tests:
     runs-on: ubuntu-latest
 
     steps:
