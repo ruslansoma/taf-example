@@ -14,7 +14,7 @@ import io.restassured.specification.RequestSpecification;
  * The type Base exchange rate test.
  */
 public class BaseExchangeRateTest {
-    private static String API_KEY = System.getProperty("qa.api.key");
+    private static String API_KEY =PropertyParameters.getInstance().get("api.key");
     private static String BASE_URL = PropertyParameters.getInstance().get("base.uri");
 
     /**
