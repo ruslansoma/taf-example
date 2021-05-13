@@ -16,7 +16,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  ui-tests:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -36,9 +36,6 @@ jobs:
       - name: Test
         run: ./gradlew clean :ui-example:test
         
-      - name: Grant Permissions to gradlew
-        run: ls -R
-
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
