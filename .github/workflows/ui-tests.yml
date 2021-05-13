@@ -41,6 +41,7 @@ jobs:
           allure_results: ui-example/build/allure-results
           allure_report: ui-example/build/reports/allure-report
           allure_history: allure-history
+          subfolder: ui-example/
           keep_reports: 20
 
       - name: Deploy report to Github Pages
