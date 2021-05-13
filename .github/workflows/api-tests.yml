@@ -20,11 +20,8 @@ jobs:
         with:
           java-version: '8'
           distribution: 'adopt'
-      
-      - name: run ls -R
-        run: ls -R
-        
-      - name: Write value to Properties-file
+
+      - name: Write api key to properties file
         uses: christian-draeger/write-properties@1.0.1
         with:
           path: 'api-example/src/main/resources/env.properties'
