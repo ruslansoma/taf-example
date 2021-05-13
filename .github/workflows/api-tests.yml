@@ -20,11 +20,18 @@ jobs:
         with:
           java-version: '8'
           distribution: 'adopt'
+      
+      - name: Write value to Properties-file
+        uses: christian-draeger/write-properties@1.0.1
+        with:
+          path: './src/main/resources/env.properties'
+          property: 'api.key'
+          value: ${{ secrets.API_KEY }}
 
       - name: Grant Permissions to gradlew
         run: chmod +x gradlew
       - name: Test
-        run: ./gradlew clean :api-example:test -Dqaa.api.key=${{ secrets.API_KEY }}
+        run: ./gradlew clean :api-example:test
         
       - name: Get Allure history
         uses: actions/checkout@v2
