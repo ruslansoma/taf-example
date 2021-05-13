@@ -1,3 +1,17 @@
 [ {
+  "buildOrder" : 5,
+  "reportUrl" : "https://ruslansoma.github.io/taf-example/5/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 3480
+  }
+}, {
+  "buildOrder" : 4,
+  "reportUrl" : "https://ruslansoma.github.io/taf-example/4/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "duration" : 2953
+  }
+}, {
   "data" : { }
 } ]
