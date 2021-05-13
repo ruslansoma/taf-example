@@ -52,9 +52,9 @@ jobs:
         if: always()
         #id: allure-report
         with:
-          allure_results: allure-results
+          allure_results: ui-example/build/allure-results
           #gh_pages: gh-pages
-          allure_report: /home/runner/work/taf-example/taf-example/ui-example/build/reports/allure-report
+          allure_report: ui-example/build/reports/allure-report
           allure_history: allure-history
           keep_reports: 20
 
