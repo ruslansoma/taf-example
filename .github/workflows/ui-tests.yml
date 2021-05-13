@@ -35,6 +35,9 @@ jobs:
         run: chmod +x gradlew
       - name: Test
         run: ./gradlew clean :ui-example:test
+        
+      - name: Grant Permissions to gradlew
+        run: ls -R
 
       - name: Get Allure history
         uses: actions/checkout@v2
