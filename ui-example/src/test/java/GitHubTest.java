@@ -31,6 +31,7 @@ public class GitHubTest {
         LOGGER.info("Verify user cant login with invalid credentials. Started.");
 
         Selenide.open("");
+        //This needs to be done explicitly, due to headless mode
         WebDriverRunner.getWebDriver().manage().window().setSize(new Dimension(1900, 1200));
 
         mainPage.getSignIn().click();
