@@ -1,0 +1,159 @@
+{
+  "uid" : "9d7a0a487fc22fa7",
+  "name" : "verifyUserCantLoginWithInvalidCredentials()",
+  "fullName" : "GitHubTest.verifyUserCantLoginWithInvalidCredentials",
+  "historyId" : "31f6f664ba0f7607c83cb66430ed649",
+  "time" : {
+    "start" : 1620958345093,
+    "stop" : 1620958356627,
+    "duration" : 11534
+  },
+  "description" : "Verify user cant login with invalid credentials",
+  "descriptionHtml" : "<p>Verify user cant login with invalid credentials</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Verify user cant login with invalid credentials",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://github.com",
+      "time" : {
+        "start" : 1620958345183,
+        "stop" : 1620958350970,
+        "duration" : 5787
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Sign in\") click()",
+      "time" : {
+        "start" : 1620958353380,
+        "stop" : 1620958354332,
+        "duration" : 952
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#login_field\") set value(login)",
+      "time" : {
+        "start" : 1620958354333,
+        "stop" : 1620958354516,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#password\") set value(password)",
+      "time" : {
+        "start" : 1620958354516,
+        "stop" : 1620958356213,
+        "duration" : 1697
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[type='submit']\") click()",
+      "time" : {
+        "start" : 1620958356213,
+        "stop" : 1620958356580,
+        "duration" : 367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#js-flash-container\") should(text 'Incorrect username or password.')",
+      "time" : {
+        "start" : 1620958356581,
+        "stop" : 1620958356619,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-763"
+  }, {
+    "name" : "thread",
+    "value" : "2878@fv-az83-763.Test worker(9)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "GitHubTest"
+  }, {
+    "name" : "testClass",
+    "value" : "GitHubTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyUserCantLoginWithInvalidCredentials"
+  }, {
+    "name" : "suite",
+    "value" : "GitHubTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9d7a0a487fc22fa7.json",
+  "parameterValues" : [ ]
+}
