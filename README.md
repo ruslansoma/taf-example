@@ -4,6 +4,11 @@ Contains of two gradle modules:
 * ui-example
 * api-example
 
+# How to run locally
+Ui tests can be launched locally via ***.\gradlew :ui-example:test***
+
+Api tests can be launched locally via ***.\gradlew :api-example:test***
+
 # CI
 Tests can be launched via GitHub Actions manually, workflows are ui-tests.yml and api-tests.yml.
 
