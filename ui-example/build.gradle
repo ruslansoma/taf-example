@@ -6,12 +6,25 @@ group 'com.ruslansoma.taf'
 version '1.0-SNAPSHOT'
 
 dependencies {
-    compile("com.codeborne:selenide:${selenide}")
-    compile("io.qameta.allure:allure-selenide:${allureSelenide}")
+    compile "com.codeborne:selenide:${selenide}"
+    compile "io.qameta.allure:allure-selenide:${allureSelenide}"
+    testImplementation "io.cucumber:cucumber-java:${cucumberJava}"
+    testImplementation "io.cucumber:cucumber-junit-platform-engine:${cucumberJava}"
 }
 
 allure {
     version = "${allureGradle}"
     autoconfigure = true
     aspectjweaver = true
+}
+
+tasks {
+    test {
+        useJUnitPlatform()
+        ignoreFailures = true
+
+        systemProperties(System.getProperties())
+        systemProperty("cucumber.plugin", "util.CucumberGlobalListener")
+        systemProperty("cucumber.publish.quiet", "true")
+    }
 }

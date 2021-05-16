@@ -13,6 +13,7 @@ subprojects {
         allureVersion = '2.13.6'
         allureGradle = '2.8.1'
         restAssuredVersion = '4.3.3'
+        cucumberJava = '6.10.4'
     }
 
     repositories {

@@ -16,6 +16,7 @@ public class GitHubLoginPage {
     public SelenideElement getLoginField() {
         return $("#login_field");
     }
+
     /**
      * Gets password field.
      *
@@ -24,6 +25,7 @@ public class GitHubLoginPage {
     public SelenideElement getPasswordField() {
         return $("#password");
     }
+
     /**
      * Gets sign in button.
      *
@@ -32,6 +34,7 @@ public class GitHubLoginPage {
     public SelenideElement getSignInButton() {
         return $("[type='submit']");
     }
+
     /**
      * Gets error message.
      *
