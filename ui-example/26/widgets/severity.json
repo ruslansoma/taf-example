@@ -1,0 +1,11 @@
+[ {
+  "uid" : "506be585cadde9de",
+  "name" : "verifyUserCantLoginWithInvalidCredentials()",
+  "time" : {
+    "start" : 1621131384446,
+    "stop" : 1621131391594,
+    "duration" : 7148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
