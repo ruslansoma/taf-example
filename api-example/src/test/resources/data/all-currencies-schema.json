@@ -1,172 +1,688 @@
 {
-  "result": "success",
-  "documentation": "https://www.exchangerate-api.com/docs",
-  "terms_of_use": "https://www.exchangerate-api.com/terms",
-  "time_last_update_unix": 1620864001,
-  "time_last_update_utc": "Thu, 13 May 2021 00:00:01 +0000",
-  "time_next_update_unix": 1620950401,
-  "time_next_update_utc": "Fri, 14 May 2021 00:00:01 +0000",
-  "base_code": "USD",
-  "conversion_rates": {
-    "USD": 1,
-    "AED": 3.6725,
-    "AFN": 78.4951,
-    "ALL": 101.3440,
-    "AMD": 522.1478,
-    "ANG": 1.7900,
-    "AOA": 651.9823,
-    "ARS": 93.9424,
-    "AUD": 1.2862,
-    "AWG": 1.7900,
-    "AZN": 1.7004,
-    "BAM": 1.6110,
-    "BBD": 2.0000,
-    "BDT": 84.8749,
-    "BGN": 1.6119,
-    "BHD": 0.3760,
-    "BIF": 1967.2103,
-    "BMD": 1.0000,
-    "BND": 1.3299,
-    "BOB": 6.8947,
-    "BRL": 5.2354,
-    "BSD": 1.0000,
-    "BTN": 73.4936,
-    "BWP": 10.7673,
-    "BYN": 2.5322,
-    "BZD": 2.0000,
-    "CAD": 1.2093,
-    "CDF": 1988.0318,
-    "CHF": 0.9068,
-    "CLP": 702.3370,
-    "CNY": 6.4448,
-    "COP": 3714.8826,
-    "CRC": 615.4919,
-    "CUC": 1.0000,
-    "CUP": 25.7500,
-    "CVE": 90.8237,
-    "CZK": 21.1486,
-    "DJF": 177.7210,
-    "DKK": 6.1450,
-    "DOP": 57.0050,
-    "DZD": 133.4593,
-    "EGP": 15.6799,
-    "ERN": 15.0000,
-    "ETB": 42.7075,
-    "EUR": 0.8239,
-    "FJD": 2.0198,
-    "FKP": 0.7085,
-    "FOK": 6.1450,
-    "GBP": 0.7086,
-    "GEL": 3.4255,
-    "GGP": 0.7085,
-    "GHS": 5.7621,
-    "GIP": 0.7085,
-    "GMD": 51.9480,
-    "GNF": 9856.4523,
-    "GTQ": 7.7109,
-    "GYD": 211.3469,
-    "HKD": 7.7693,
-    "HNL": 24.0463,
-    "HRK": 6.2061,
-    "HTG": 87.9014,
-    "HUF": 296.2575,
-    "IDR": 14249.0977,
-    "ILS": 3.2976,
-    "IMP": 0.7085,
-    "INR": 73.4943,
-    "IQD": 1458.5093,
-    "IRR": 42014.9155,
-    "ISK": 124.1553,
-    "JMD": 151.2820,
-    "JOD": 0.7090,
-    "JPY": 109.2134,
-    "KES": 106.9008,
-    "KGS": 84.6907,
-    "KHR": 4066.7230,
-    "KID": 1.2862,
-    "KMF": 405.2268,
-    "KRW": 1126.2108,
-    "KWD": 0.2996,
-    "KYD": 0.8333,
-    "KZT": 426.6037,
-    "LAK": 9434.1387,
-    "LBP": 1507.5000,
-    "LKR": 196.4558,
-    "LRD": 172.0590,
-    "LSL": 14.0513,
-    "LYD": 4.4631,
-    "MAD": 8.8527,
-    "MDL": 17.7462,
-    "MGA": 3759.1092,
-    "MKD": 50.6842,
-    "MMK": 1559.8269,
-    "MNT": 2846.0881,
-    "MOP": 8.0023,
-    "MRU": 35.8416,
-    "MUR": 40.5334,
-    "MVR": 15.3590,
-    "MWK": 796.3563,
-    "MXN": 20.0661,
-    "MYR": 4.1232,
-    "MZN": 58.5481,
-    "NAD": 14.0513,
-    "NGN": 392.1768,
-    "NIO": 34.9837,
-    "NOK": 8.3036,
-    "NPR": 117.5897,
-    "NZD": 1.3895,
-    "OMR": 0.3845,
-    "PAB": 1.0000,
-    "PEN": 3.7120,
-    "PGK": 3.5351,
-    "PHP": 47.8725,
-    "PKR": 152.3401,
-    "PLN": 3.7604,
-    "PYG": 6635.1212,
-    "QAR": 3.6400,
-    "RON": 4.0658,
-    "RSD": 96.9606,
-    "RUB": 74.2708,
-    "RWF": 1000.1504,
-    "SAR": 3.7500,
-    "SBD": 7.8878,
-    "SCR": 15.4083,
-    "SDG": 398.4523,
-    "SEK": 8.3784,
-    "SGD": 1.3299,
-    "SHP": 0.7085,
-    "SLL": 10261.5120,
-    "SOS": 578.4482,
-    "SRD": 14.1498,
-    "SSP": 177.7057,
-    "STN": 20.1803,
-    "SYP": 1607.8232,
-    "SZL": 14.0513,
-    "THB": 31.2597,
-    "TJS": 11.3535,
-    "TMT": 3.4971,
-    "TND": 2.7240,
-    "TOP": 2.2323,
-    "TRY": 8.3729,
-    "TTD": 6.8008,
-    "TVD": 1.2862,
-    "TWD": 27.9656,
-    "TZS": 2316.7406,
-    "UAH": 27.6021,
-    "UGX": 3537.0557,
-    "UYU": 43.9724,
-    "UZS": 10495.6602,
-    "VES": 2825544.5243,
-    "VND": 23055.5286,
-    "VUV": 107.1738,
-    "WST": 2.4931,
-    "XAF": 540.3023,
-    "XCD": 2.7000,
-    "XDR": 0.6945,
-    "XOF": 540.3023,
-    "XPF": 98.2920,
-    "YER": 250.3759,
-    "ZAR": 14.0516,
-    "ZMW": 22.3694
-  }
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "result": {
+      "type": "string"
+    },
+    "documentation": {
+      "type": "string"
+    },
+    "terms_of_use": {
+      "type": "string"
+    },
+    "time_last_update_unix": {
+      "type": "integer"
+    },
+    "time_last_update_utc": {
+      "type": "string"
+    },
+    "time_next_update_unix": {
+      "type": "integer"
+    },
+    "time_next_update_utc": {
+      "type": "string"
+    },
+    "base_code": {
+      "type": "string"
+    },
+    "conversion_rates": {
+      "type": "object",
+      "properties": {
+        "USD": {
+          "type": "integer"
+        },
+        "AED": {
+          "type": "number"
+        },
+        "AFN": {
+          "type": "number"
+        },
+        "ALL": {
+          "type": "number"
+        },
+        "AMD": {
+          "type": "number"
+        },
+        "ANG": {
+          "type": "number"
+        },
+        "AOA": {
+          "type": "number"
+        },
+        "ARS": {
+          "type": "number"
+        },
+        "AUD": {
+          "type": "number"
+        },
+        "AWG": {
+          "type": "number"
+        },
+        "AZN": {
+          "type": "number"
+        },
+        "BAM": {
+          "type": "number"
+        },
+        "BBD": {
+          "type": "number"
+        },
+        "BDT": {
+          "type": "number"
+        },
+        "BGN": {
+          "type": "number"
+        },
+        "BHD": {
+          "type": "number"
+        },
+        "BIF": {
+          "type": "number"
+        },
+        "BMD": {
+          "type": "number"
+        },
+        "BND": {
+          "type": "number"
+        },
+        "BOB": {
+          "type": "number"
+        },
+        "BRL": {
+          "type": "number"
+        },
+        "BSD": {
+          "type": "number"
+        },
+        "BTN": {
+          "type": "number"
+        },
+        "BWP": {
+          "type": "number"
+        },
+        "BYN": {
+          "type": "number"
+        },
+        "BZD": {
+          "type": "number"
+        },
+        "CAD": {
+          "type": "number"
+        },
+        "CDF": {
+          "type": "number"
+        },
+        "CHF": {
+          "type": "number"
+        },
+        "CLP": {
+          "type": "number"
+        },
+        "CNY": {
+          "type": "number"
+        },
+        "COP": {
+          "type": "number"
+        },
+        "CRC": {
+          "type": "number"
+        },
+        "CUC": {
+          "type": "number"
+        },
+        "CUP": {
+          "type": "number"
+        },
+        "CVE": {
+          "type": "number"
+        },
+        "CZK": {
+          "type": "number"
+        },
+        "DJF": {
+          "type": "number"
+        },
+        "DKK": {
+          "type": "number"
+        },
+        "DOP": {
+          "type": "number"
+        },
+        "DZD": {
+          "type": "number"
+        },
+        "EGP": {
+          "type": "number"
+        },
+        "ERN": {
+          "type": "number"
+        },
+        "ETB": {
+          "type": "number"
+        },
+        "EUR": {
+          "type": "number"
+        },
+        "FJD": {
+          "type": "number"
+        },
+        "FKP": {
+          "type": "number"
+        },
+        "FOK": {
+          "type": "number"
+        },
+        "GBP": {
+          "type": "number"
+        },
+        "GEL": {
+          "type": "number"
+        },
+        "GGP": {
+          "type": "number"
+        },
+        "GHS": {
+          "type": "number"
+        },
+        "GIP": {
+          "type": "number"
+        },
+        "GMD": {
+          "type": "number"
+        },
+        "GNF": {
+          "type": "number"
+        },
+        "GTQ": {
+          "type": "number"
+        },
+        "GYD": {
+          "type": "number"
+        },
+        "HKD": {
+          "type": "number"
+        },
+        "HNL": {
+          "type": "number"
+        },
+        "HRK": {
+          "type": "number"
+        },
+        "HTG": {
+          "type": "number"
+        },
+        "HUF": {
+          "type": "number"
+        },
+        "IDR": {
+          "type": "number"
+        },
+        "ILS": {
+          "type": "number"
+        },
+        "IMP": {
+          "type": "number"
+        },
+        "INR": {
+          "type": "number"
+        },
+        "IQD": {
+          "type": "number"
+        },
+        "IRR": {
+          "type": "number"
+        },
+        "ISK": {
+          "type": "number"
+        },
+        "JMD": {
+          "type": "number"
+        },
+        "JOD": {
+          "type": "number"
+        },
+        "JPY": {
+          "type": "number"
+        },
+        "KES": {
+          "type": "number"
+        },
+        "KGS": {
+          "type": "number"
+        },
+        "KHR": {
+          "type": "number"
+        },
+        "KID": {
+          "type": "number"
+        },
+        "KMF": {
+          "type": "number"
+        },
+        "KRW": {
+          "type": "number"
+        },
+        "KWD": {
+          "type": "number"
+        },
+        "KYD": {
+          "type": "number"
+        },
+        "KZT": {
+          "type": "number"
+        },
+        "LAK": {
+          "type": "number"
+        },
+        "LBP": {
+          "type": "number"
+        },
+        "LKR": {
+          "type": "number"
+        },
+        "LRD": {
+          "type": "number"
+        },
+        "LSL": {
+          "type": "number"
+        },
+        "LYD": {
+          "type": "number"
+        },
+        "MAD": {
+          "type": "number"
+        },
+        "MDL": {
+          "type": "number"
+        },
+        "MGA": {
+          "type": "number"
+        },
+        "MKD": {
+          "type": "number"
+        },
+        "MMK": {
+          "type": "number"
+        },
+        "MNT": {
+          "type": "number"
+        },
+        "MOP": {
+          "type": "number"
+        },
+        "MRU": {
+          "type": "number"
+        },
+        "MUR": {
+          "type": "number"
+        },
+        "MVR": {
+          "type": "number"
+        },
+        "MWK": {
+          "type": "number"
+        },
+        "MXN": {
+          "type": "number"
+        },
+        "MYR": {
+          "type": "number"
+        },
+        "MZN": {
+          "type": "number"
+        },
+        "NAD": {
+          "type": "number"
+        },
+        "NGN": {
+          "type": "number"
+        },
+        "NIO": {
+          "type": "number"
+        },
+        "NOK": {
+          "type": "number"
+        },
+        "NPR": {
+          "type": "number"
+        },
+        "NZD": {
+          "type": "number"
+        },
+        "OMR": {
+          "type": "number"
+        },
+        "PAB": {
+          "type": "number"
+        },
+        "PEN": {
+          "type": "number"
+        },
+        "PGK": {
+          "type": "number"
+        },
+        "PHP": {
+          "type": "number"
+        },
+        "PKR": {
+          "type": "number"
+        },
+        "PLN": {
+          "type": "number"
+        },
+        "PYG": {
+          "type": "number"
+        },
+        "QAR": {
+          "type": "number"
+        },
+        "RON": {
+          "type": "number"
+        },
+        "RSD": {
+          "type": "number"
+        },
+        "RUB": {
+          "type": "number"
+        },
+        "RWF": {
+          "type": "number"
+        },
+        "SAR": {
+          "type": "number"
+        },
+        "SBD": {
+          "type": "number"
+        },
+        "SCR": {
+          "type": "number"
+        },
+        "SDG": {
+          "type": "number"
+        },
+        "SEK": {
+          "type": "number"
+        },
+        "SGD": {
+          "type": "number"
+        },
+        "SHP": {
+          "type": "number"
+        },
+        "SLL": {
+          "type": "number"
+        },
+        "SOS": {
+          "type": "number"
+        },
+        "SRD": {
+          "type": "number"
+        },
+        "SSP": {
+          "type": "number"
+        },
+        "STN": {
+          "type": "number"
+        },
+        "SYP": {
+          "type": "number"
+        },
+        "SZL": {
+          "type": "number"
+        },
+        "THB": {
+          "type": "number"
+        },
+        "TJS": {
+          "type": "number"
+        },
+        "TMT": {
+          "type": "number"
+        },
+        "TND": {
+          "type": "number"
+        },
+        "TOP": {
+          "type": "number"
+        },
+        "TRY": {
+          "type": "number"
+        },
+        "TTD": {
+          "type": "number"
+        },
+        "TVD": {
+          "type": "number"
+        },
+        "TWD": {
+          "type": "number"
+        },
+        "TZS": {
+          "type": "number"
+        },
+        "UAH": {
+          "type": "number"
+        },
+        "UGX": {
+          "type": "number"
+        },
+        "UYU": {
+          "type": "number"
+        },
+        "UZS": {
+          "type": "number"
+        },
+        "VES": {
+          "type": "number"
+        },
+        "VND": {
+          "type": "number"
+        },
+        "VUV": {
+          "type": "number"
+        },
+        "WST": {
+          "type": "number"
+        },
+        "XAF": {
+          "type": "number"
+        },
+        "XCD": {
+          "type": "number"
+        },
+        "XDR": {
+          "type": "number"
+        },
+        "XOF": {
+          "type": "number"
+        },
+        "XPF": {
+          "type": "number"
+        },
+        "YER": {
+          "type": "number"
+        },
+        "ZAR": {
+          "type": "number"
+        },
+        "ZMW": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "USD",
+        "AED",
+        "AFN",
+        "ALL",
+        "AMD",
+        "ANG",
+        "AOA",
+        "ARS",
+        "AUD",
+        "AWG",
+        "AZN",
+        "BAM",
+        "BBD",
+        "BDT",
+        "BGN",
+        "BHD",
+        "BIF",
+        "BMD",
+        "BND",
+        "BOB",
+        "BRL",
+        "BSD",
+        "BTN",
+        "BWP",
+        "BYN",
+        "BZD",
+        "CAD",
+        "CDF",
+        "CHF",
+        "CLP",
+        "CNY",
+        "COP",
+        "CRC",
+        "CUC",
+        "CUP",
+        "CVE",
+        "CZK",
+        "DJF",
+        "DKK",
+        "DOP",
+        "DZD",
+        "EGP",
+        "ERN",
+        "ETB",
+        "EUR",
+        "FJD",
+        "FKP",
+        "FOK",
+        "GBP",
+        "GEL",
+        "GGP",
+        "GHS",
+        "GIP",
+        "GMD",
+        "GNF",
+        "GTQ",
+        "GYD",
+        "HKD",
+        "HNL",
+        "HRK",
+        "HTG",
+        "HUF",
+        "IDR",
+        "ILS",
+        "IMP",
+        "INR",
+        "IQD",
+        "IRR",
+        "ISK",
+        "JMD",
+        "JOD",
+        "JPY",
+        "KES",
+        "KGS",
+        "KHR",
+        "KID",
+        "KMF",
+        "KRW",
+        "KWD",
+        "KYD",
+        "KZT",
+        "LAK",
+        "LBP",
+        "LKR",
+        "LRD",
+        "LSL",
+        "LYD",
+        "MAD",
+        "MDL",
+        "MGA",
+        "MKD",
+        "MMK",
+        "MNT",
+        "MOP",
+        "MRU",
+        "MUR",
+        "MVR",
+        "MWK",
+        "MXN",
+        "MYR",
+        "MZN",
+        "NAD",
+        "NGN",
+        "NIO",
+        "NOK",
+        "NPR",
+        "NZD",
+        "OMR",
+        "PAB",
+        "PEN",
+        "PGK",
+        "PHP",
+        "PKR",
+        "PLN",
+        "PYG",
+        "QAR",
+        "RON",
+        "RSD",
+        "RUB",
+        "RWF",
+        "SAR",
+        "SBD",
+        "SCR",
+        "SDG",
+        "SEK",
+        "SGD",
+        "SHP",
+        "SLL",
+        "SOS",
+        "SRD",
+        "SSP",
+        "STN",
+        "SYP",
+        "SZL",
+        "THB",
+        "TJS",
+        "TMT",
+        "TND",
+        "TOP",
+        "TRY",
+        "TTD",
+        "TVD",
+        "TWD",
+        "TZS",
+        "UAH",
+        "UGX",
+        "UYU",
+        "UZS",
+        "VES",
+        "VND",
+        "VUV",
+        "WST",
+        "XAF",
+        "XCD",
+        "XDR",
+        "XOF",
+        "XPF",
+        "YER",
+        "ZAR",
+        "ZMW"
+      ]
+    }
+  },
+  "required": [
+    "result",
+    "documentation",
+    "terms_of_use",
+    "time_last_update_unix",
+    "time_last_update_utc",
+    "time_next_update_unix",
+    "time_next_update_utc",
+    "base_code",
+    "conversion_rates"
+  ]
 }
