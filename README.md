@@ -4,7 +4,7 @@ Contains of two gradle modules:
 * ui-example
 * api-example
 
-# How to run locally
+# How to run locally ( Java 11 needed)
 Ui tests can be launched locally via 
 > ***.\gradlew :ui-example:test***
 
