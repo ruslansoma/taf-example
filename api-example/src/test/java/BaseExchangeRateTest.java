@@ -9,8 +9,8 @@ import java.util.Collections;
  * The type Base exchange rate test.
  */
 public class BaseExchangeRateTest {
-    private static String API_KEY = PropertyParameters.getInstance().get("api.key");
-    private static String BASE_URL = PropertyParameters.getInstance().get("base.uri");
+    private static final String API_KEY = PropertyParameters.getInstance().get("api.key");
+    private static final String BASE_URL = PropertyParameters.getInstance().get("base.uri");
 
     /**
      * Sets up.
