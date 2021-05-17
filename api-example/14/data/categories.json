@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1 expectation failed.\nJSON path result doesn't match.\nExpected: success\n  Actual: error\n",
+      "children" : [ {
+        "name" : "getTodayExchangeRate()",
+        "uid" : "d06e3352c221a529",
+        "parentUid" : "9886c3c9c977e50b895ece357f3b0cd3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621271375630,
+          "stop" : 1621271376837,
+          "duration" : 1207
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9886c3c9c977e50b895ece357f3b0cd3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
