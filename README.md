@@ -1,5 +1,5 @@
-# taf-example
-Test automation framework example.
+# Test automation framework example
+
 Contains of two gradle modules:
 * ui-example
 * api-example
