@@ -23,7 +23,7 @@ tasks {
         useJUnitPlatform()
         ignoreFailures = true
 
-        systemProperties(System.getProperties())
+        systemProperties(System.getProperties().getProperties())
         systemProperty("cucumber.plugin", "util.CucumberGlobalListener")
         systemProperty("cucumber.publish.quiet", "true")
     }

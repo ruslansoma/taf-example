@@ -15,10 +15,10 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
 
-      - name: Setup JDK 1.8
+      - name: Setup JDK
         uses: actions/setup-java@v2
         with:
-          java-version: '8'
+          java-version: '11'
           distribution: 'adopt'
 
       - name: Grant Permissions to gradlew

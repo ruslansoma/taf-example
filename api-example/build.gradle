@@ -9,7 +9,7 @@ dependencies {
     compile "io.rest-assured:rest-assured:${restAssuredVersion}"
     compile "io.rest-assured:json-path:${restAssuredVersion}"
     compile "io.rest-assured:json-schema-validator:${restAssuredVersion}"
-    compile("io.qameta.allure:allure-rest-assured:${allureRestAssured}")
+    compile "io.qameta.allure:allure-rest-assured:${allureRestAssured}"
 }
 
 allure {
@@ -19,5 +19,5 @@ allure {
 }
 tasks.withType(Test) {
     useJUnitPlatform()
-    systemProperty "qa.api.key",  System.getProperty("qa.api.key")
+    systemProperty "qa.api.key", System.getProperty("qa.api.key")
 }
