@@ -1,0 +1,31 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Example #1",
+    "uid" : "39e181092005f05c",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621269672998,
+      "stop" : 1621269681456,
+      "duration" : 8458
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Example #2",
+    "uid" : "fb267bdf11e9002a",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1621269681549,
+      "stop" : 1621269683995,
+      "duration" : 2446
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "suites"
+}
