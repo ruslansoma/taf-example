@@ -1,4 +1,4 @@
-name: Run all ui tests
+name: Run UI tests
 
 on:
   schedule:
