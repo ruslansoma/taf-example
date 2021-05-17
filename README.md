@@ -16,9 +16,14 @@ Tests can be launched via GitHub Actions manually, workflows are ui-tests.yml an
 
 Api suite runs every 1:00 AM and UI smokes runs every midnight.
 
-## Allure report
+## Allure report 
+
 ### UI tests: 
-> https://ruslansoma.github.io/taf-example/ui-example 
+> https://ruslansoma.github.io/taf-example/ui-example/ 
 ### API tests:
-> https://ruslansoma.github.io/taf-example/api-example 
+> https://ruslansoma.github.io/taf-example/api-example/
+
+(Please add the number of Git Actions run at the end of the link to navigate to corresponding test-report)
+
+e.g. https://ruslansoma.github.io/taf-example/ui-example/30 
 
