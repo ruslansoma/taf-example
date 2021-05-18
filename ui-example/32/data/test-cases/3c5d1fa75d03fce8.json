@@ -1,0 +1,192 @@
+{
+  "uid" : "3c5d1fa75d03fce8",
+  "name" : "Example #2",
+  "historyId" : "745b7e5b0e52c432b576da964c50310f",
+  "time" : {
+    "start" : 1621304062549,
+    "stop" : 1621304063909,
+    "duration" : 1360
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") https://github.com",
+      "time" : {
+        "start" : 1621304062557,
+        "stop" : 1621304062799,
+        "duration" : 242
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"by text: Sign in\") click()",
+      "time" : {
+        "start" : 1621304062799,
+        "stop" : 1621304063239,
+        "duration" : 440
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#login_field\") set value(wronglogin@github.com)",
+      "time" : {
+        "start" : 1621304063240,
+        "stop" : 1621304063387,
+        "duration" : 147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#password\") set value(someanotherpass)",
+      "time" : {
+        "start" : 1621304063387,
+        "stop" : 1621304063497,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"[type='submit']\") click()",
+      "time" : {
+        "start" : 1621304063497,
+        "stop" : 1621304063855,
+        "duration" : 358
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"#js-flash-container\") should(text 'Incorrect username or password.')",
+      "time" : {
+        "start" : 1621304063855,
+        "stop" : 1621304063890,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "$(\"clearCookies\") ",
+      "time" : {
+        "start" : 1621304063891,
+        "stop" : 1621304063909,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ui"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-464"
+  }, {
+    "name" : "thread",
+    "value" : "3085@fv-az28-464.Test worker(11)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "94515aab60a10207",
+        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/31//#testresult/94515aab60a10207",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621270308419,
+          "stop" : 1621270309926,
+          "duration" : 1507
+        }
+      }, {
+        "uid" : "fb267bdf11e9002a",
+        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example//30//#testresult/fb267bdf11e9002a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1621269681549,
+          "stop" : 1621269683995,
+          "duration" : 2446
+        }
+      } ]
+    },
+    "tags" : [ "ui" ]
+  },
+  "source" : "3c5d1fa75d03fce8.json",
+  "parameterValues" : [ ]
+}
