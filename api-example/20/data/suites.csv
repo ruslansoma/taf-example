@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat May 22 01:10:51 GMT 2021","Sat May 22 01:10:55 GMT 2021","3530","","ExchangeRateTest","","ExchangeRateTest","getTodayExchangeRateAndValidateScheme","getTodayExchangeRateAndValidateScheme()",""
-"passed","Sat May 22 01:10:55 GMT 2021","Sat May 22 01:10:56 GMT 2021","1151","","ExchangeRateTest","","ExchangeRateTest","getTodayExchangeRate","getTodayExchangeRate()",""

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "a3e32fb082fa449d",
+  "name" : "getTodayExchangeRate()",
+  "time" : {
+    "start" : 1622516389016,
+    "stop" : 1622516390953,
+    "duration" : 1937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e9ba922f919cbe5",
+  "name" : "getTodayExchangeRateAndValidateScheme()",
+  "time" : {
+    "start" : 1622516385079,
+    "stop" : 1622516388881,
+    "duration" : 3802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
