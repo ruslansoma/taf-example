@@ -1,4 +1,16 @@
 [ {
+  "buildOrder" : 47,
+  "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/47/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  }
+}, {
   "buildOrder" : 46,
   "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/46/",
   "reportName" : "Allure Report with history",
