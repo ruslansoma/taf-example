@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "ExchangeRateTest",
+    "children" : [ {
+      "name" : "getTodayExchangeRateAndValidateScheme",
+      "uid" : "117bd867851e4f6",
+      "parentUid" : "9969dc37b8e6aba9a50a00368f5dd862",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622943489690,
+        "stop" : 1622943493777,
+        "duration" : 4087
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "getTodayExchangeRate",
+      "uid" : "6a7dfdf20a3490fa",
+      "parentUid" : "9969dc37b8e6aba9a50a00368f5dd862",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622943493875,
+        "stop" : 1622943495212,
+        "duration" : 1337
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9969dc37b8e6aba9a50a00368f5dd862"
+  } ],
+  "name" : "packages"
+}

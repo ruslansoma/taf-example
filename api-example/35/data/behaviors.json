@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "getTodayExchangeRateAndValidateScheme()",
+    "uid" : "117bd867851e4f6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1622943489690,
+      "stop" : 1622943493777,
+      "duration" : 4087
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "getTodayExchangeRate()",
+    "uid" : "6a7dfdf20a3490fa",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1622943493875,
+      "stop" : 1622943495212,
+      "duration" : 1337
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
