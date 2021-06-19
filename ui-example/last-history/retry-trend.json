@@ -1,4 +1,12 @@
 [ {
+  "buildOrder" : 64,
+  "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/64/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 2,
+    "retry" : 0
+  }
+}, {
   "buildOrder" : 63,
   "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/63/",
   "reportName" : "Allure Report with history",
@@ -145,14 +153,6 @@
 }, {
   "buildOrder" : 45,
   "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/45/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "run" : 2,
-    "retry" : 0
-  }
-}, {
-  "buildOrder" : 44,
-  "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/44/",
   "reportName" : "Allure Report with history",
   "data" : {
     "run" : 2,
