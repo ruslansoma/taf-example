@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 40,
+      "passed" : 41,
       "unknown" : 0,
-      "total" : 40
+      "total" : 41
     },
     "items" : [ {
+      "uid" : "4c584b368b2d2298",
+      "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/70//#testresult/4c584b368b2d2298",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624586178599,
+        "stop" : 1624586209615,
+        "duration" : 31016
+      }
+    }, {
       "uid" : "daba021b5c869f70",
       "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/69//#testresult/daba021b5c869f70",
       "status" : "passed",
@@ -179,15 +188,6 @@
         "stop" : 1622948163276,
         "duration" : 13427
       }
-    }, {
-      "uid" : "1a7c8c822018cf8e",
-      "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/50//#testresult/1a7c8c822018cf8e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1622862154333,
-        "stop" : 1622862166422,
-        "duration" : 12089
-      }
     } ]
   },
   "745b7e5b0e52c432b576da964c50310f" : {
@@ -195,11 +195,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 40,
+      "passed" : 41,
       "unknown" : 0,
-      "total" : 40
+      "total" : 41
     },
     "items" : [ {
+      "uid" : "82052514711daf64",
+      "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/70//#testresult/82052514711daf64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624586209741,
+        "stop" : 1624586211055,
+        "duration" : 1314
+      }
+    }, {
       "uid" : "8fabe1f36c29d440",
       "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/69//#testresult/8fabe1f36c29d440",
       "status" : "passed",
@@ -369,15 +378,6 @@
         "start" : 1622948163398,
         "stop" : 1622948164596,
         "duration" : 1198
-      }
-    }, {
-      "uid" : "c973fd556d11dabf",
-      "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/50//#testresult/c973fd556d11dabf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1622862166518,
-        "stop" : 1622862167981,
-        "duration" : 1463
       }
     } ]
   }
