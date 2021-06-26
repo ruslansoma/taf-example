@@ -1,11 +1,11 @@
 {
-  "uid" : "44fd56deabae7e0",
+  "uid" : "b4e27a5994b8f528",
   "name" : "Example #1",
   "historyId" : "736cbe5885a215e82412863f0ca80f4b",
   "time" : {
-    "start" : 1623808716155,
-    "stop" : 1623808740722,
-    "duration" : 24567
+    "start" : 1624672051490,
+    "stop" : 1624672060741,
+    "duration" : 9251
   },
   "description" : "",
   "status" : "passed",
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "$(\"open\") https://github.com",
       "time" : {
-        "start" : 1623808716617,
-        "stop" : 1623808737038,
-        "duration" : 20421
+        "start" : 1624672051899,
+        "stop" : 1624672058621,
+        "duration" : 6722
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,9 +33,9 @@
     }, {
       "name" : "$(\"by text: Sign in\") click()",
       "time" : {
-        "start" : 1623808737155,
-        "stop" : 1623808739356,
-        "duration" : 2201
+        "start" : 1624672058774,
+        "stop" : 1624672059369,
+        "duration" : 595
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "$(\"#login_field\") set value(ruslansoma)",
       "time" : {
-        "start" : 1623808739357,
-        "stop" : 1623808739565,
-        "duration" : 208
+        "start" : 1624672059371,
+        "stop" : 1624672059589,
+        "duration" : 218
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,9 +63,9 @@
     }, {
       "name" : "$(\"#password\") set value(qwerty1234&)",
       "time" : {
-        "start" : 1623808739565,
-        "stop" : 1623808739832,
-        "duration" : 267
+        "start" : 1624672059589,
+        "stop" : 1624672060167,
+        "duration" : 578
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,9 +78,9 @@
     }, {
       "name" : "$(\"[type='submit']\") click()",
       "time" : {
-        "start" : 1623808739837,
-        "stop" : 1623808740647,
-        "duration" : 810
+        "start" : 1624672060167,
+        "stop" : 1624672060660,
+        "duration" : 493
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,9 +93,9 @@
     }, {
       "name" : "$(\"#js-flash-container\") should(text 'Incorrect username or password.')",
       "time" : {
-        "start" : 1623808740655,
-        "stop" : 1623808740692,
-        "duration" : 37
+        "start" : 1624672060662,
+        "stop" : 1624672060704,
+        "duration" : 42
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,9 +108,9 @@
     }, {
       "name" : "$(\"clearCookies\") ",
       "time" : {
-        "start" : 1623808740693,
-        "stop" : 1623808740711,
-        "duration" : 18
+        "start" : 1624672060705,
+        "stop" : 1624672060725,
+        "duration" : 20
       },
       "status" : "passed",
       "steps" : [ ],
@@ -134,10 +134,10 @@
     "value" : "ui"
   }, {
     "name" : "host",
-    "value" : "fv-az83-867"
+    "value" : "fv-az77-523"
   }, {
     "name" : "thread",
-    "value" : "2845@fv-az83-867.Test worker(11)"
+    "value" : "2916@fv-az77-523.Test worker(11)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -161,11 +161,101 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 32,
+        "passed" : 42,
         "unknown" : 0,
-        "total" : 32
+        "total" : 42
       },
       "items" : [ {
+        "uid" : "4c584b368b2d2298",
+        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/70//#testresult/4c584b368b2d2298",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624586178599,
+          "stop" : 1624586209615,
+          "duration" : 31016
+        }
+      }, {
+        "uid" : "daba021b5c869f70",
+        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/69//#testresult/daba021b5c869f70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624498977279,
+          "stop" : 1624498998807,
+          "duration" : 21528
+        }
+      }, {
+        "uid" : "66886ebc35f0ebf4",
+        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/68//#testresult/66886ebc35f0ebf4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624412648465,
+          "stop" : 1624412666228,
+          "duration" : 17763
+        }
+      }, {
+        "uid" : "211de19f9fb19a44",
+        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/67//#testresult/211de19f9fb19a44",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624326752555,
+          "stop" : 1624326763317,
+          "duration" : 10762
+        }
+      }, {
+        "uid" : "6f8d0b5aa462afa5",
+        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/66//#testresult/6f8d0b5aa462afa5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624240971160,
+          "stop" : 1624240984951,
+          "duration" : 13791
+        }
+      }, {
+        "uid" : "da379c2d1c308b9b",
+        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/65//#testresult/da379c2d1c308b9b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624154602740,
+          "stop" : 1624154618876,
+          "duration" : 16136
+        }
+      }, {
+        "uid" : "1f740bda6a394437",
+        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/64//#testresult/1f740bda6a394437",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624068026224,
+          "stop" : 1624068035455,
+          "duration" : 9231
+        }
+      }, {
+        "uid" : "72f9287a6e975fe6",
+        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/63//#testresult/72f9287a6e975fe6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623981716387,
+          "stop" : 1623981731163,
+          "duration" : 14776
+        }
+      }, {
+        "uid" : "a667ad74ff02f3e6",
+        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/62//#testresult/a667ad74ff02f3e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623894885262,
+          "stop" : 1623894897593,
+          "duration" : 12331
+        }
+      }, {
+        "uid" : "44fd56deabae7e0",
+        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/61//#testresult/44fd56deabae7e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623808716155,
+          "stop" : 1623808740722,
+          "duration" : 24567
+        }
+      }, {
         "uid" : "89bade2dc21da356",
         "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/60//#testresult/89bade2dc21da356",
         "status" : "passed",
@@ -255,100 +345,10 @@
           "stop" : 1622948163276,
           "duration" : 13427
         }
-      }, {
-        "uid" : "1a7c8c822018cf8e",
-        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/50//#testresult/1a7c8c822018cf8e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1622862154333,
-          "stop" : 1622862166422,
-          "duration" : 12089
-        }
-      }, {
-        "uid" : "acb9b40f4c587241",
-        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/49//#testresult/acb9b40f4c587241",
-        "status" : "passed",
-        "time" : {
-          "start" : 1622776414381,
-          "stop" : 1622776429690,
-          "duration" : 15309
-        }
-      }, {
-        "uid" : "224f0b772dd7577e",
-        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/48//#testresult/224f0b772dd7577e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1622693424085,
-          "stop" : 1622693441543,
-          "duration" : 17458
-        }
-      }, {
-        "uid" : "79e95b2e3c70b3e8",
-        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/47//#testresult/79e95b2e3c70b3e8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1622608219205,
-          "stop" : 1622608235646,
-          "duration" : 16441
-        }
-      }, {
-        "uid" : "3cfcb70cdb420882",
-        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/46//#testresult/3cfcb70cdb420882",
-        "status" : "passed",
-        "time" : {
-          "start" : 1622522097171,
-          "stop" : 1622522117556,
-          "duration" : 20385
-        }
-      }, {
-        "uid" : "a61c59602b1ec7b4",
-        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/45//#testresult/a61c59602b1ec7b4",
-        "status" : "passed",
-        "time" : {
-          "start" : 1622434374254,
-          "stop" : 1622434391980,
-          "duration" : 17726
-        }
-      }, {
-        "uid" : "b0693afce04bab58",
-        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/44//#testresult/b0693afce04bab58",
-        "status" : "passed",
-        "time" : {
-          "start" : 1622347518846,
-          "stop" : 1622347540733,
-          "duration" : 21887
-        }
-      }, {
-        "uid" : "afe0c073f468bdfe",
-        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/43//#testresult/afe0c073f468bdfe",
-        "status" : "passed",
-        "time" : {
-          "start" : 1622260322446,
-          "stop" : 1622260342159,
-          "duration" : 19713
-        }
-      }, {
-        "uid" : "c281f763c99960ab",
-        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/42//#testresult/c281f763c99960ab",
-        "status" : "passed",
-        "time" : {
-          "start" : 1622172505038,
-          "stop" : 1622172519897,
-          "duration" : 14859
-        }
-      }, {
-        "uid" : "26929c15a88b69f8",
-        "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/41//#testresult/26929c15a88b69f8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1622084874107,
-          "stop" : 1622084887199,
-          "duration" : 13092
-        }
       } ]
     },
     "tags" : [ "ui" ]
   },
-  "source" : "44fd56deabae7e0.json",
+  "source" : "b4e27a5994b8f528.json",
   "parameterValues" : [ ]
 }
