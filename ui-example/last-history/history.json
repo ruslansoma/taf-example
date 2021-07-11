@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 56,
+      "passed" : 57,
       "unknown" : 0,
-      "total" : 56
+      "total" : 57
     },
     "items" : [ {
+      "uid" : "8d66568e1263fe80",
+      "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/86//#testresult/8d66568e1263fe80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625968538286,
+        "stop" : 1625968546517,
+        "duration" : 8231
+      }
+    }, {
       "uid" : "778200a31e6167be",
       "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/85//#testresult/778200a31e6167be",
       "status" : "passed",
@@ -179,15 +188,6 @@
         "stop" : 1624326763317,
         "duration" : 10762
       }
-    }, {
-      "uid" : "6f8d0b5aa462afa5",
-      "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/66//#testresult/6f8d0b5aa462afa5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624240971160,
-        "stop" : 1624240984951,
-        "duration" : 13791
-      }
     } ]
   },
   "745b7e5b0e52c432b576da964c50310f" : {
@@ -195,11 +195,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 56,
+      "passed" : 57,
       "unknown" : 0,
-      "total" : 56
+      "total" : 57
     },
     "items" : [ {
+      "uid" : "7af3f1c2c956f261",
+      "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/86//#testresult/7af3f1c2c956f261",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625968546648,
+        "stop" : 1625968548092,
+        "duration" : 1444
+      }
+    }, {
       "uid" : "1d43f0b73c9d98f4",
       "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/85//#testresult/1d43f0b73c9d98f4",
       "status" : "passed",
@@ -369,15 +378,6 @@
         "start" : 1624326763409,
         "stop" : 1624326764917,
         "duration" : 1508
-      }
-    }, {
-      "uid" : "a0bc5635380bf22d",
-      "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/66//#testresult/a0bc5635380bf22d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1624240985031,
-        "stop" : 1624240986186,
-        "duration" : 1155
       }
     } ]
   }
