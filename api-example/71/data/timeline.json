@@ -1,0 +1,39 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az77-819",
+    "children" : [ {
+      "name" : "3286@fv-az77-819.Test worker(11)",
+      "children" : [ {
+        "name" : "getTodayExchangeRateAndValidateScheme()",
+        "uid" : "4095e3214d5eb222",
+        "parentUid" : "206bcaa8c5d536c7c45a90879236c3cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626051644688,
+          "stop" : 1626051647670,
+          "duration" : 2982
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getTodayExchangeRate()",
+        "uid" : "7da63e1891737146",
+        "parentUid" : "206bcaa8c5d536c7c45a90879236c3cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626051647753,
+          "stop" : 1626051649483,
+          "duration" : 1730
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "206bcaa8c5d536c7c45a90879236c3cf"
+    } ],
+    "uid" : "16e3f1378bab54e6a57ed4193e6cdc75"
+  } ],
+  "name" : "timeline"
+}
