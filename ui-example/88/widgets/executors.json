@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://ruslansoma.github.io/taf-example/ui-example",
+  "buildOrder" : 88,
+  "buildName" : "GitHub Actions Run #1024940037",
+  "buildUrl" : "https://github.com/ruslansoma/taf-example/actions/runs/1024940037",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://ruslansoma.github.io/taf-example/ui-example/88/"
+} ]
